@@ -10,24 +10,24 @@ namespace DeepInCShape
 {
     class 手写迭代器的痛苦
     {
-        static void Main(string[] args)
-        {
-            //object[] values = {"a", "b", "c", "d", "e"};
-            //IterationSample collection = new IterationSample(values,3);
-            //foreach (var item in collection)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            DateTime stop = DateTime.Now.AddSeconds(2);
-            foreach (var s in CountWithTimeLimit(stop))
-            {
-                Console.WriteLine("Received:" + s);
-                Thread.Sleep(300);
-            }
+        //static void Main(string[] args)
+        //{
+        //    //object[] values = {"a", "b", "c", "d", "e"};
+        //    //IterationSample collection = new IterationSample(values,3);
+        //    //foreach (var item in collection)
+        //    //{
+        //    //    Console.WriteLine(item);
+        //    //}
+        //    DateTime stop = DateTime.Now.AddSeconds(2);
+        //    foreach (var s in CountWithTimeLimit(stop))
+        //    {
+        //        Console.WriteLine("Received:" + s);
+        //        Thread.Sleep(300);
+        //    }
 
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
 
 
         public class IterationSample : IEnumerable
