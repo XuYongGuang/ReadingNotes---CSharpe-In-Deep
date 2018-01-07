@@ -69,6 +69,8 @@
     <Compile Include="6.1手写迭代器的痛苦.cs" />
     <Compile Include="9.7编译并执行一个表达式树.cs" />
     <Compile Include="伪LINQ实现.cs" />
+    <Compile Include="初识异步编程.cs" />
+    <Compile Include="动态类型快速指南.cs" />
     <Compile Include="接口和委托的泛型可变性.cs" />
   </ItemGroup>
   <ItemGroup>
